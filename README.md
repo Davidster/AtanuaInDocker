@@ -21,6 +21,19 @@ brew cask install xquartz
 
 ### 4. Run the startup script:
 
+#### 1. Download this project's files
+  
+```
+brew install wget
+cd ~
+wget https://github.com/Davidster/AtanuaInDocker/archive/master.zip
+unzip master.zip
+cd AtanuaInDocker-master
+```
+
+#### 2. Open up a terminal and navigate to this project's folder
+#### 3. Run the following command:
+
 ```
 ./run.sh
 ```

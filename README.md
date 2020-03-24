@@ -2,11 +2,28 @@ Run [Atanua](https://sol.gfxile.net/atanua) on a modern macbook with the magic o
 
 ## Installation
 
+You will need approximately 5 GB to install the dependencies.
+
 ### 1. Install docker
 
 https://docs.docker.com/docker-for-mac/install/
 
+To check that the install worked after you're done, run the following command
+
+```
+docker --version
+```
+
 ### 2. Install homebrew:
+
+If you're not sure, check if you have homebrew installed
+
+```
+homebrew --version
+```
+
+If you do not have it, install with the following command
+
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -20,6 +37,8 @@ brew cask install xquartz
 ```
 
 ### 4. Run the startup script:
+
+Before continuing further, make sure to restart your computer for xquartz to be ready to use.
 
 #### 4.1. Download this project's files
   

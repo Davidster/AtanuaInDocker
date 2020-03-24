@@ -41,7 +41,8 @@ cd AtanuaInDocker-master
 ## Note
 
 **When saving / loading atanua project files, make sure to use the mounted documents folder 
-or else you will lose your work when you exit the program**
+or else you will lose your work when you exit the program. The resulting files will be saved to
+the documents folder where the aforementioned run.sh program is installed.**
 
 ![Documents folder location](./saveLocation.png)
 

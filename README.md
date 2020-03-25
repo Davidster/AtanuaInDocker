@@ -54,11 +54,7 @@ cd AtanuaInDocker-master
 
 #### 4.2. Open up a terminal and navigate to this project's folder
 
-#### 4.3. Start docker
-
-Open the docker application, after doing so you should see little whale icon on the top bar. When it stabilizes it docker should be ready.
-
-#### 4.4. Run the following command:
+#### 4.3. Run the following command:
 
 ```
 ./run.sh
@@ -73,6 +69,10 @@ or else you will lose your work when you exit the program. The resulting files w
 the documents folder where the aforementioned run.sh program is installed.**
 
 ![Documents folder location](./saveLocation.png)
+
+## Note
+
+On MacOS to delete items you need to use `fn + delete` as opposed to the regular `del` key in Windows/Linux.
 
 ## Credits
 

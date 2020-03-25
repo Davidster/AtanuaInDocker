@@ -5,5 +5,6 @@ open -a Xquartz
 
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
 
+open -a Docker
 docker build . -t atanua:latest
 docker run -e DISPLAY=$(ipconfig getifaddr en0):0 -v $(pwd)/documents:/home/atanua/documents -it atanua:latest

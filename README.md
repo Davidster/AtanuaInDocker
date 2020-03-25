@@ -40,6 +40,8 @@ brew cask install xquartz
 
 Before continuing further, make sure to restart your computer for xquartz to be ready to use.
 
+After restarting you should start Xquartz and go into `Preferences`, then to the `Security` tab and check `Allow connections from network clients`
+
 #### 4.1. Download this project's files
   
 ```
@@ -51,11 +53,18 @@ cd AtanuaInDocker-master
 ```
 
 #### 4.2. Open up a terminal and navigate to this project's folder
-#### 4.3. Run the following command:
+
+#### 4.3. Start docker
+
+Open the docker application, after doing so you should see little whale icon on the top bar. When it stabilizes it docker should be ready.
+
+#### 4.4. Run the following command:
 
 ```
 ./run.sh
 ```
+
+If you get an error that says soething like "cannot open display", try to restart your computer and re-run this script.
 
 ## Note
 

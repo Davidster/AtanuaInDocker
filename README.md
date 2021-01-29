@@ -1,5 +1,7 @@
 Run [Atanua](https://sol.gfxile.net/atanua) on a modern macbook with the magic of Docker!
 
+Please feel free to open issues and/or PRs as you see fit. This is a public repository, after all.
+
 ## Installation
 
 You will need not more than 5 GB to install the dependencies.

@@ -1,8 +1,10 @@
 Run [Atanua](https://sol.gfxile.net/atanua) on a modern macbook with the magic of Docker!
 
+Please feel free to open issues and/or PRs as you see fit. This is a public repository, after all.
+
 ## Installation
 
-You will need approximately 5 GB to install the dependencies.
+You will need not more than 5 GB to install the dependencies.
 
 ### 1. Install docker
 
@@ -14,53 +16,31 @@ To check that the install worked after you're done, run the following command
 docker --version
 ```
 
-### 2. Install homebrew:
+### 2. Install Xquartz:
 
-If you're not sure, check if you have homebrew installed
+Visit the [official site](https://xquartz.org)
 
-```
-homebrew --version
-```
-
-If you do not have it, install with the following command
-
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
-### 3. Install socat and Xquartz:
-
-```
-brew install socat
-brew cask install xquartz
-```
-
-### 4. Run the startup script:
+### 3. Run the startup script:
 
 Before continuing further, make sure to restart your computer for xquartz to be ready to use.
 
 After restarting you should start Xquartz and go into `Preferences`, then to the `Security` tab and check `Allow connections from network clients`
 
-#### 4.1. Download this project's files
+#### 3.1. Download this project's files
   
-```
-brew install wget
-cd ~
-wget https://github.com/Davidster/AtanuaInDocker/archive/master.zip
-unzip master.zip
-cd AtanuaInDocker-master
-```
+1. Download this project's files by clicking the `Code` download button above this README.
+2. Unzip the archive
+3. Move the folder into your [home folder](https://www.cnet.com/how-to/how-to-find-your-macs-home-folder-and-add-it-to-finder/)
 
-#### 4.2. Open up a terminal and navigate to this project's folder
+#### 3.2. Open up a terminal and navigate to this project's folder
 
-#### 4.3. Run the following command:
+#### 3.3. Run the following command:
 
 ```
 ./run.sh
 ```
 
-If you get an error that says soething like "cannot open display", try to restart your computer and re-run this script.
+If you get an error that says something like "cannot open display", try to restart your computer and re-run this script.
 
 ## Note
 

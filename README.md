@@ -28,7 +28,7 @@ After restarting you should start Xquartz and go into `Preferences`, then to the
   
 1. Download this project's files by clicking the `Code` download button above this README.
 2. Unzip the archive
-3. Move the folder into your home (`~`) folder
+3. Move the folder into your [home folder](https://www.cnet.com/how-to/how-to-find-your-macs-home-folder-and-add-it-to-finder/)
 
 #### 3.2. Open up a terminal and navigate to this project's folder
 

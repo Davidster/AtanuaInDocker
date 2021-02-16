@@ -20,9 +20,13 @@ docker --version
 
 Visit the [official site](https://xquartz.org)
 
+**IMPORTANT: Do not upgrade your version of XQuartz to any beta version such as v2.8.0_beta3 (see #2)**
+
 ### 3. Run the startup script:
 
 Before continuing further, make sure to restart your computer for xquartz to be ready to use.
+
+**IMPORTANT: Do not upgrade your version of XQuartz to any beta version such as v2.8.0_beta3 (see #2)**
 
 After restarting you should start Xquartz and go into `Preferences`, then to the `Security` tab and check `Allow connections from network clients`
 
